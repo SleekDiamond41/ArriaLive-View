@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA8A08123246B9400239A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8A08023246B9400239A49 /* AppDelegate.swift */; };
+		4CA8A08323246B9400239A49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8A08223246B9400239A49 /* SceneDelegate.swift */; };
+		4CA8A08523246B9400239A49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8A08423246B9400239A49 /* ContentView.swift */; };
+		4CA8A08723246B9500239A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8A08623246B9500239A49 /* Assets.xcassets */; };
+		4CA8A08A23246B9500239A49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8A08923246B9500239A49 /* Preview Assets.xcassets */; };
+		4CA8A08D23246B9500239A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8A08B23246B9500239A49 /* LaunchScreen.storyboard */; };
+		4CA8A09823246B9500239A49 /* ArriaLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8A09723246B9500239A49 /* ArriaLiveTests.swift */; };
+		4CA8A0A323246B9600239A49 /* ArriaLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8A0A223246B9600239A49 /* ArriaLiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA8A09423246B9500239A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA8A07523246B9400239A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA8A07C23246B9400239A49;
+			remoteInfo = ArriaLive;
+		};
+		4CA8A09F23246B9600239A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA8A07523246B9400239A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA8A07C23246B9400239A49;
+			remoteInfo = ArriaLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA8A07D23246B9400239A49 /* ArriaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArriaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA8A08023246B9400239A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CA8A08223246B9400239A49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CA8A08423246B9400239A49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CA8A08623246B9500239A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA8A08923246B9500239A49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CA8A08C23246B9500239A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA8A08E23246B9500239A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA8A09323246B9500239A49 /* ArriaLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArriaLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA8A09723246B9500239A49 /* ArriaLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArriaLiveTests.swift; sourceTree = "<group>"; };
+		4CA8A09923246B9500239A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA8A09E23246B9600239A49 /* ArriaLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArriaLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA8A0A223246B9600239A49 /* ArriaLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArriaLiveUITests.swift; sourceTree = "<group>"; };
+		4CA8A0A423246B9600239A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA8A07A23246B9400239A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A09023246B9500239A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A09B23246B9500239A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA8A07423246B9400239A49 = {
+			isa = PBXGroup;
+			children = (
+				4CA8A07F23246B9400239A49 /* ArriaLive */,
+				4CA8A09623246B9500239A49 /* ArriaLiveTests */,
+				4CA8A0A123246B9600239A49 /* ArriaLiveUITests */,
+				4CA8A07E23246B9400239A49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA8A07E23246B9400239A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8A07D23246B9400239A49 /* ArriaLive.app */,
+				4CA8A09323246B9500239A49 /* ArriaLiveTests.xctest */,
+				4CA8A09E23246B9600239A49 /* ArriaLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA8A07F23246B9400239A49 /* ArriaLive */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8A08023246B9400239A49 /* AppDelegate.swift */,
+				4CA8A08223246B9400239A49 /* SceneDelegate.swift */,
+				4CA8A08423246B9400239A49 /* ContentView.swift */,
+				4CA8A08623246B9500239A49 /* Assets.xcassets */,
+				4CA8A08B23246B9500239A49 /* LaunchScreen.storyboard */,
+				4CA8A08E23246B9500239A49 /* Info.plist */,
+				4CA8A08823246B9500239A49 /* Preview Content */,
+			);
+			path = ArriaLive;
+			sourceTree = "<group>";
+		};
+		4CA8A08823246B9500239A49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8A08923246B9500239A49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CA8A09623246B9500239A49 /* ArriaLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8A09723246B9500239A49 /* ArriaLiveTests.swift */,
+				4CA8A09923246B9500239A49 /* Info.plist */,
+			);
+			path = ArriaLiveTests;
+			sourceTree = "<group>";
+		};
+		4CA8A0A123246B9600239A49 /* ArriaLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8A0A223246B9600239A49 /* ArriaLiveUITests.swift */,
+				4CA8A0A423246B9600239A49 /* Info.plist */,
+			);
+			path = ArriaLiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA8A07C23246B9400239A49 /* ArriaLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA8A0A723246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLive" */;
+			buildPhases = (
+				4CA8A07923246B9400239A49 /* Sources */,
+				4CA8A07A23246B9400239A49 /* Frameworks */,
+				4CA8A07B23246B9400239A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArriaLive;
+			productName = ArriaLive;
+			productReference = 4CA8A07D23246B9400239A49 /* ArriaLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA8A09223246B9500239A49 /* ArriaLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA8A0AA23246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLiveTests" */;
+			buildPhases = (
+				4CA8A08F23246B9500239A49 /* Sources */,
+				4CA8A09023246B9500239A49 /* Frameworks */,
+				4CA8A09123246B9500239A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA8A09523246B9500239A49 /* PBXTargetDependency */,
+			);
+			name = ArriaLiveTests;
+			productName = ArriaLiveTests;
+			productReference = 4CA8A09323246B9500239A49 /* ArriaLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA8A09D23246B9500239A49 /* ArriaLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA8A0AD23246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLiveUITests" */;
+			buildPhases = (
+				4CA8A09A23246B9500239A49 /* Sources */,
+				4CA8A09B23246B9500239A49 /* Frameworks */,
+				4CA8A09C23246B9500239A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA8A0A023246B9600239A49 /* PBXTargetDependency */,
+			);
+			name = ArriaLiveUITests;
+			productName = ArriaLiveUITests;
+			productReference = 4CA8A09E23246B9600239A49 /* ArriaLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA8A07523246B9400239A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Duct Ape Productions";
+				TargetAttributes = {
+					4CA8A07C23246B9400239A49 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4CA8A09223246B9500239A49 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4CA8A07C23246B9400239A49;
+					};
+					4CA8A09D23246B9500239A49 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4CA8A07C23246B9400239A49;
+					};
+				};
+			};
+			buildConfigurationList = 4CA8A07823246B9400239A49 /* Build configuration list for PBXProject "ArriaLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA8A07423246B9400239A49;
+			productRefGroup = 4CA8A07E23246B9400239A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA8A07C23246B9400239A49 /* ArriaLive */,
+				4CA8A09223246B9500239A49 /* ArriaLiveTests */,
+				4CA8A09D23246B9500239A49 /* ArriaLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA8A07B23246B9400239A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8A08D23246B9500239A49 /* LaunchScreen.storyboard in Resources */,
+				4CA8A08A23246B9500239A49 /* Preview Assets.xcassets in Resources */,
+				4CA8A08723246B9500239A49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A09123246B9500239A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A09C23246B9500239A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA8A07923246B9400239A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8A08123246B9400239A49 /* AppDelegate.swift in Sources */,
+				4CA8A08323246B9400239A49 /* SceneDelegate.swift in Sources */,
+				4CA8A08523246B9400239A49 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A08F23246B9500239A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8A09823246B9500239A49 /* ArriaLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA8A09A23246B9500239A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8A0A323246B9600239A49 /* ArriaLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA8A09523246B9500239A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA8A07C23246B9400239A49 /* ArriaLive */;
+			targetProxy = 4CA8A09423246B9500239A49 /* PBXContainerItemProxy */;
+		};
+		4CA8A0A023246B9600239A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA8A07C23246B9400239A49 /* ArriaLive */;
+			targetProxy = 4CA8A09F23246B9600239A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA8A08B23246B9500239A49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA8A08C23246B9500239A49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA8A0A523246B9600239A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA8A0A623246B9600239A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA8A0A823246B9600239A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ArriaLive/Preview Content\"";
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ArriaLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA8A0A923246B9600239A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ArriaLive/Preview Content\"";
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ArriaLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CA8A0AB23246B9600239A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				INFOPLIST_FILE = ArriaLiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArriaLive.app/ArriaLive";
+			};
+			name = Debug;
+		};
+		4CA8A0AC23246B9600239A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				INFOPLIST_FILE = ArriaLiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArriaLive.app/ArriaLive";
+			};
+			name = Release;
+		};
+		4CA8A0AE23246B9600239A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				INFOPLIST_FILE = ArriaLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArriaLive;
+			};
+			name = Debug;
+		};
+		4CA8A0AF23246B9600239A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GCX3L3HG6X;
+				INFOPLIST_FILE = ArriaLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duct-ape-productions.ArriaLiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArriaLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA8A07823246B9400239A49 /* Build configuration list for PBXProject "ArriaLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA8A0A523246B9600239A49 /* Debug */,
+				4CA8A0A623246B9600239A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA8A0A723246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA8A0A823246B9600239A49 /* Debug */,
+				4CA8A0A923246B9600239A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA8A0AA23246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA8A0AB23246B9600239A49 /* Debug */,
+				4CA8A0AC23246B9600239A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA8A0AD23246B9600239A49 /* Build configuration list for PBXNativeTarget "ArriaLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA8A0AE23246B9600239A49 /* Debug */,
+				4CA8A0AF23246B9600239A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA8A07523246B9400239A49 /* Project object */;
+}
