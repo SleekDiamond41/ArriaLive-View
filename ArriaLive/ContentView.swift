@@ -11,8 +11,8 @@ import SwiftUI
 // MARK: Slot View
 fileprivate struct SlotView: View {
 	
-	@State var position: CGFloat
-	@State var lineThickness: CGFloat
+	let position: CGFloat
+	let lineThickness: CGFloat
 	
 	var body: some View {
 		GeometryReader { (geometry) in
@@ -26,11 +26,11 @@ fileprivate struct SlotView: View {
 					
 					RoundedRectangle(cornerRadius: 6,
 													 style: .circular)
-						.frame(width: geometry.size.width - (geometry.size.width * self.position) - self.lineThickness * 2,
+						.frame(width: geometry.size.width * (1 - self.position) - self.lineThickness * 2,
 									 height: geometry.size.height - self.lineThickness * 2,
 									 alignment: .bottomTrailing)
 						.foregroundColor(.white)
-						.padding(.trailing, 2)
+						.padding(.trailing, self.lineThickness)
 				}
 			}
 		}
